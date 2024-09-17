@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenistas do Brasil</title>
+
+    <link rel="shortcut icon" type="imagex/png" href="./src/images/icon-tenistasBR.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tenistas do Brasil</h1>
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta" id="campo-pesquisa">
+            <button class="btn-pesquisa">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+
+    <div class="tip">
+        <span class="tiptext">Pesquise nomes ou sobrenomes comuns! Os atletas são pessoas como nós!</span>
+        <button class="tip-btn" aria-placeholder="dica">?</button>
+    </div>
+
+    <footer>
+        <p>2024 - Tenistas do Brasil. Todos os direitos reservados.</p>
+        <p>No caso de necessidade ou recomendação de alteração, favor entrar em contato: tenistasbrasil@gmail.com</p>
+    </footer>
+
+    <script src="./src/js/dados.js"></script>
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
